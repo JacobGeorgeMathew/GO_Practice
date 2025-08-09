@@ -1,14 +1,17 @@
 package datapkg
 
-type new_struct struct {
-	name string
-	age int
-	id int
+import "fmt"
+
+type NewStruct struct {
+	Name string
+	Age  int
+	Id   int
 }
 
-func Model(){
-	var example new_struct;
-	example.id = 10
-	example.age = 20
-	example.name = "default"
+func Model() {
+	var example NewStruct
+	example.Id = 10
+	example.Age = 20
+	example.Name = "default"
+	fmt.Printf("name: %s,Age: %v,Id: %v",example.Name,example.Age,example.Id);
 }
