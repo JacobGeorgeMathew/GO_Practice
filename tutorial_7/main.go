@@ -8,7 +8,9 @@ type PaymentProcessor interface {
 }
 
 // Implementation 1
-type PayPal struct{}
+type PayPal struct{
+    //data int
+}
 
 func (p PayPal) Pay(amount float64) string {
     return fmt.Sprintf("Paid %.2f using PayPal", amount)

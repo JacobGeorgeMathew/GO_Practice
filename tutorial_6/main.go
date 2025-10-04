@@ -15,7 +15,8 @@ func main() {
 
 	if exist1 {
 		fmt.Printf("exist: %v\n",val1)
-	}else {
+	}  else   
+	 {
 		fmt.Printf("does not exist:\n")
 	}
 

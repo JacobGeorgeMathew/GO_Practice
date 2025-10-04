@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	datapkg "go_tutorials/tutorial_5/data_pkg"
-	mypkg2 "go_tutorials/tutorial_5/my_pkg2"
+	mypkg3 "go_tutorials/tutorial_5/my_pkg2"
 )
 
 type my_struct struct {
@@ -36,5 +36,5 @@ func main() {
 	data_struct.Age = 25
 	data_struct.Id = 1
 
-	mypkg2.Loop(data_struct)
+	mypkg3.Loop(data_struct)
 }
