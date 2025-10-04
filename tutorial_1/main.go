@@ -6,7 +6,7 @@ func main() {
 	// var num int = 100
 	// var num2 float32 = 123.321
 
-	// fmt.Println("Hello World", num)
+	// fmt.Println("Hello World ", num)
 	// fmt.Println(num2)
 	// var result float32 = num2 + float32(num)
 
@@ -19,7 +19,7 @@ func main() {
 	// myVar := "text";
 	// fmt.Println(myVar);
 	display("Hi");
-	var sum, diff, err = Add(100,50);
+	var sum, diff, err = Add(120,50);
 	if err != nil {
 		fmt.Printf("Error occured \n");
 	}else {

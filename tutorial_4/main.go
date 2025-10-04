@@ -12,4 +12,5 @@ func main() {
 	for i , v := range array {
 		fmt.Printf("Second loop %v\t%v\n",i,v);
 	}
+	
 }

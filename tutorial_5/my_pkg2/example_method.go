@@ -2,7 +2,7 @@ package mypkg2
 
 import (
 	"fmt"
-	datapkg "go_tutorials/tutorial_5/data_pkg"
+	"go_tutorials/tutorial_5/data_pkg"
 )
 
 func Loop(p datapkg.NewStruct) {
@@ -11,3 +11,4 @@ func Loop(p datapkg.NewStruct) {
 	}
 	datapkg.Model();
 }
+//
